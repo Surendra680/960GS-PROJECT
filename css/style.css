@@ -1,0 +1,94 @@
+
+
+*{
+	font-family: 'Roboto', sans-serif;
+	background-color: aquamarine;
+}
+header{
+	height: 200px;
+	margin-bottom: 20px;
+}
+header .grid_4{
+	height: 200px;
+	text-align: right;
+	background-color:aquamarine;
+	
+}
+header .grid_8{
+	height: 200px;
+}
+
+header .grid_4 img{
+	width:70%;
+	height: 200px;
+	border-radius: 50%	;
+}
+.web_name {
+	
+	/* height: 200px; */
+	padding-top: 50px;
+	text-transform: uppercase;
+}
+.web_name h1{
+	font-size: 50px;
+	text-align: center;
+	font-style: italic;
+}
+.web_name span{
+	position: relative;
+	top:-45px;
+	padding-left: 410px;
+	text-decoration: underline rgb(204, 119, 119) 5px;
+	font-style: italic;
+
+}
+nav a{
+	text-decoration: none;
+	display: block;
+	font-size: 20px;
+	padding: 10px 10px 10px 20px;
+	text-transform: capitalize;
+	background-color:grey;
+	color:white;
+	text-align: center;
+	outline: none;
+	border-radius: 5px;
+
+
+}
+nav a:hover{
+	cursor: pointer;
+	background-image: linear-gradient(to right,rgb(207, 64, 64),rgb(56, 158, 56));
+
+
+}
+nav a.active{
+	background-image: linear-gradient(to right,rgb(206, 79, 79),rgb(78, 233, 78));
+
+}
+main{
+	margin-top: 15px;
+}
+.content{
+	text-align: center	;
+}
+.content h1{
+	text-transform: uppercase;
+	/* font-weight: 500; */
+	background-color:rgb(218, 177, 161);
+	padding: 7px;
+	border-radius: 5px;
+}
+	footer .grid_6{
+		height: 179px;
+		position: relative;
+	}
+	footer .grid_6 p{
+
+		padding-top: 50px;
+		text-align: center;
+	}
+	.copyrights{
+		text-align: center;
+	position: fixed;
+	}
